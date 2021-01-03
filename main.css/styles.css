@@ -299,12 +299,12 @@ font-weight: 700;
   margin-bottom: 10px;
 }
 
-.description {
+.features-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--link-color);
+  color: #757575;
 }
 /*======END FEATURES======*/
 
@@ -390,6 +390,10 @@ font-weight: 700;
   padding: 16px 32px 30px 32px;
 
 }
+
+.social-list-item:not(:last-child){
+  padding-right: 10px;
+}
 .social-list-icon {
   fill: #AFB1B8;
   width: 20px;
@@ -421,7 +425,7 @@ fill: var(--white-color);
   margin-right: 30px;
 }
 .team-list-wrapper {
-  padding: 30px 10px;
+  padding: 30px 0px;
 }
 .team-list-item {
   width: 270px;
@@ -452,7 +456,7 @@ fill: var(--white-color);
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--link-color);
-  margin-bottom: 16px;
+
 }
 /*======END OUR TEAM======*/
 
@@ -558,6 +562,7 @@ fill: #2196F3;
 }
 .footer-address-list {
   margin-right: 70px;
+  margin-top: 20px;
 }
 .footer-address-list-item:not(last-child) {
   margin-bottom: 9px;
